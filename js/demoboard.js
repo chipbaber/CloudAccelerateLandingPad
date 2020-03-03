@@ -29,22 +29,23 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
 //json id reads a parameter to get the json control file
-var jsonId = 'https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id='+getUrlParameter('jsonId');
+//var jsonId = 'https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id='+getUrlParameter('jsonId');
 //the pin serves as a redirect in case the generic launchpad does not have an authenticated user.
-var pin = getUrlParameter('pin');
-console.log("Parameter check json repo id is: "+jsonId+"    PIN is:  " + pin);
+//var pin = getUrlParameter('pin');
+var pin = 'cloudmessage'
+//console.log("Parameter check json repo id is: "+jsonId+"    PIN is:  " + pin);
 
 /*Gathers information for storyboard from json control file*/
-$.getJSON('js/cloudmessage.json', function (data) {
+$.getJSON('js/'+pin+'.json', function (data) {
 /*$.getJSON(jsonId, function (data) { */
         try{
-        holder =data;
+        holder = data;
         buildStoryboard();
         }
         catch(err){
             log('Error building core HTML from JSON.',err.message);
         }
-}).error(function() { 
+}).error(function() {
 //Error function is in place if the user has not authenticated.
 console.log("Can not retrieve json control file redirecting for authenitcation to https://launch.oracle.com/?"+ pin);
  $("#title_name").text("Please navigate to https://launch.oracle.com/?"+ pin+" to properly authenticate and view the website.");
@@ -64,49 +65,50 @@ $.each(holder.storyboard, function(index, content) {
       //set the title
       $("#title_name").html(content.title);
       $("#title_frame").html(content.title);
-      
-      
+
+
       //set the title text color
       if (!content.titletextcolor || !content.titletextcolor.length){}
       else {
        $("#title_name").css('color',content.titletextcolor);
       }
-      
+
      //set bg storyoverlay if present
       if (!content.storyoverlay || !content.storyoverlay.length){}
-      else { $("#container").css('background','url('+content.storyoverlay+') no-repeat fixed center center / cover');
-      }  
-      
+      else {
+        $("#container").css('background','url('+content.storyoverlay+') no-repeat fixed center center / cover');
+      }
+
       //set background image if present
       if (!content.background || !content.background.length){    }
-      else { 
-        setTimeout(function(){  
-        $("html").css('background','url('+content.background+') no-repeat fixed center center / cover');  
+      else {
+        setTimeout(function(){
+        $("html").css('background','url('+content.background+') no-repeat fixed center center / cover');
         },900);
       }
-      
+
       //set background color if present
       if (!content.bgcolor || !content.bgcolor.length){    }
       else{
         $("html").css('background-color',''+content.bgcolor+'');
       }
-      
+
       //set body text color
       if (!content.textcolor || !content.textcolor.length){}
       else { $("html").css('color',content.textcolor); }
-      
+
       //set body text color
       if (!content.navmenucolor || !content.navmenucolor.length){}
       else { $("#left_menu").css('background-color',content.navmenucolor); }
-      
+
       //if video is empty or null value then do not display the watch button.
       if (!content.video || !content.video.length){ $("#s_video").hide(); }
       else{$("#s_video").attr("video-link", content.video);
       v_nav=v_nav+"<li><a class=\"showvideo\" href=\"#\" video-link=\""+content.video+"\">Watch Story</a></li>";
       }
-      
+
       //if there are no storyframes then we are in the DIGITAL ACCELERATE
-      if (!content.storyframes || !content.storyframes.length){ 
+      if (!content.storyframes || !content.storyframes.length){
         $("#s_launch").hide();
         isDigitalExperience =true;
         console.log("Landing Pad mode set to : Digital Experience");
@@ -117,15 +119,15 @@ $.each(holder.storyboard, function(index, content) {
       else{
         v_nav=v_nav+"<li><a  href=\""+content.innovationboard+"\" class=\"d_inno\" target=\"_IVM\">Innovation Board</a></li>";
       }
- 
-      
+
+
       //Add Value map
       if (!content.ivm || !content.ivm.length){ }
       else{
         v_nav=v_nav+"<li><a  href=\""+content.ivm+"\" class=\"d_ivm\" target=\"_IVM\">Value Map</a></li>";
       }
-      
-      
+
+
       //Add Value map
       if (!content.opptsketch || !content.opptsketch.length){ }
       else{
@@ -135,12 +137,12 @@ $.each(holder.storyboard, function(index, content) {
           $("#s_opptsketch").show();
         }*/
       }
-      
+
       //if is Digital experience do not show the story in the hamburger menu.
       if (!isDigitalExperience) {
       v_nav=v_nav+"<li><a class=\"s_launch\" href=\"#\">Storyboard</a></li>";
       }
-      
+
       //if simulated prototype present
       if (!content.prototype || !content.prototype.length){ }
       else {
@@ -154,24 +156,24 @@ $.each(holder.storyboard, function(index, content) {
                     });
           }
       }
-      
+
       //checking for prototype video
       if (!content.prototypevideo || !content.prototypevideo.length){ }
-      else {   
+      else {
        v_nav=v_nav+"<li><a  href=\"#\" class=\"showvideo\" video-link=\""+content.prototypevideo+"\">Watch Prototype</a></li>";
       }
-      
-      
+
+
       //if notional architecture present
       if (!content.architecture || !content.architecture.length){ }
       else {
           a_frame_length=content.architecture.length;
-          
+
           console.log("Notional Architecture frame length is: "+a_frame_length);
-          
+
           if (a_frame_length>0){
               v_nav=v_nav+"<li><a  href=\"#\" class=\"l_arch\" >Notional Architecture</a></li>";
-              
+
               //build hidden preload for architecture
               $.each(content.architecture, function(index, a_content) {
                       v_hidden_preload=v_hidden_preload+"<img src=\""+a_content.image+"\">";
@@ -179,19 +181,19 @@ $.each(holder.storyboard, function(index, content) {
 
           }
       }
-      
+
       // Business Value
       if (!content.businessvalue || !content.businessvalue.length){ }
       else {
         v_nav=v_nav+"<li><a  href=\""+content.businessvalue+"\" class=\"d_busval\" target=\"_ppt\">Business Value</a></li>";
       }
-        
+
       // Launch Checklist
       if (!content.impactchecklist || !content.impactchecklist.length){ }
       else {
         v_nav=v_nav+"<li><a  href=\""+content.impactchecklist+"\" class=\"d_impact\" target=\"_ppt\">Launch Checklist</a></li>";
       }
-      
+
       // LaunchPlan
       if (!content.launchplan || !content.launchplan.length){ }
       else {
@@ -202,45 +204,45 @@ $.each(holder.storyboard, function(index, content) {
             }
       }
 
-      
+
          //checking for ppt link
           if (!content.pptlink || !content.pptlink.length){ }
-          else {   
+          else {
            v_nav=v_nav+"<li id=\"dl_ppt\"><a  href=\""+content.pptlink+"\" class=\"d_ppt\" target=\"_ppt\">Download PPT</a></li>";
           }
-      
+
           if (!content.pdflink || !content.pdflink.length){ }
-          else {   
+          else {
            v_nav=v_nav+"<li id=\"dl_pdf\"><a  href=\""+content.pdflink+"\" class=\"d_pdf\" target=\"_pdf\">Download</a></li>";
-          } 
-      
-      
+          }
+
+
       //See if click through demo ppt exists
       if (!content.clickthroughdemo || !content.clickthroughdemo.length){ }
       else {
         v_nav=v_nav+"<li><a  href=\""+content.clickthroughdemo+"\" class=\"d_click\" target=\"_ppt\">Click Through Demo</a></li>";
       }
-      
+
       //See if setup checklist exists
       if (!content.userguide || !content.userguide.length){ }
       else {
         v_nav=v_nav+"<li><a  href=\""+content.userguide+"\" class=\"d_user\" target=\"_ppt\">User Guide</a></li>";
       }
-     
-      
+
+
       if (!isDigitalExperience) {
           s_frame_length=content.storyframes.length;
-           
+
           //build hidden preload storyboard images.
           $.each(content.storyframes, function(index, s_content) {
           v_hidden_preload=v_hidden_preload+"<img src=\""+s_content.image+"\">";
           });
-       } 
-          //delay the loading of the images inside the story for 3 seconds so the 
+       }
+          //delay the loading of the images inside the story for 3 seconds so the
           //bandwidth for the background images can occur
          setTimeout(function(){ $("#hidden_preload").replaceWith("</div>"+v_hidden_preload) },3200);
-     
-     
+
+
      //set the navigation menu
      v_nav=v_nav+"</ul>"
      $("#nav_menu").replaceWith(v_nav);
@@ -268,7 +270,7 @@ $.each(holder.storyboard, function(index, content) {
              $("#f_text").html(s_content.text);
              $("#f_image").attr("src", s_content.image);
              log('Story frame set to: ',s_content.image);
-             
+
             }
       });
       }
@@ -407,7 +409,7 @@ log('Hamburger Shown',' ');
 }
 
 /*Nav Menu home click*/
-$(document.body).on('click', '.home' , function(e) { 
+$(document.body).on('click', '.home' , function(e) {
 $("#storyframe").hide();
 $("#container").show();
 
@@ -448,7 +450,7 @@ $.each(holder.storyboard, function(index, content) {
       }
 
 });
-   mframe=mframe+"</div></div>"; 
+   mframe=mframe+"</div></div>";
    $("#matrixframe").replaceWith(mframe);
    $("#matrixframe").show();
 });
@@ -469,7 +471,7 @@ moveForward();
 
 /*function to move forward*/
 function moveForward(){
-   
+
         if (cur_position<frame_length){
         cur_position++;
         log('Moving to next frame: ',' ');
@@ -543,7 +545,7 @@ document.addEventListener("keyup", function(e) {
                     moveForward();
            }
         }
-        
+
         //if left arrow pressed
         if (e.keyCode == 37) {
             if($("#storyframe").is(":visible")){
@@ -551,7 +553,7 @@ document.addEventListener("keyup", function(e) {
                 moveBack();
             }
         }
-        
+
         //if t pressed hide text for story image
         if (e.keyCode == 84) {
             if($("#frametext").is(":visible")){
@@ -568,17 +570,17 @@ document.addEventListener("keyup", function(e) {
         if (e.keyCode == 70) {
             if(isFull){
                goSmall();
-               
+
             }
             else{
                goFull();
-               
+
             }
         }
-        
+
         //if p pressed toggle download from pdf to ppt since SF removed username
         if (e.keyCode == 80) {
-        
+
            if($('#dl_ppt').is(":visible")){
                log('PPT Download Link Hidden',' ');
                $('#dl_ppt').hide();
@@ -590,20 +592,20 @@ document.addEventListener("keyup", function(e) {
               $('#dl_pdf').hide();
             }
         }
-        
-        
+
+
 }, false);
 
 
 /*Code to Dynamically play video*/
  var _video = document.getElementById("playvideo");
- var src='empty'; 
+ var src='empty';
  var isVideoShowing =false;
 
 /*On click play the video*/
 $(document.body).on('click', '.showvideo' , function() {
 log('Launch Video Button Pressed',$(this).attr('video-link'));
-src = $(this).attr('video-link'); 
+src = $(this).attr('video-link');
 swapvideo();
 showvideo();
 _video.play();
@@ -629,12 +631,12 @@ $('#playvideo').html('<source src="'+src+'" type="video/mp4"/>' +
 '<a href="'+src+'"> ' +'Try downloading the video instead from here.<\/a><\/p>');
 $('#playvideo').load();
 $('#playvideo').show();
-} 
+}
 
 /*Function to show video with blackout*/
 function showvideo(){
    $("#blackout").fadeIn(400);
-}; 
+};
 
 /*When video ends show the poster*/
 _video.addEventListener('ended', function () {

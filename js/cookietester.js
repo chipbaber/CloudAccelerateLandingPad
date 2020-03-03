@@ -1,8 +1,8 @@
-/*function log sends actions from the webpage back to the server. 
+/*function log sends actions from the webpage back to the server.
  * */
- devmode=false;
- 
- 
+ devmode=true;
+
+
 function log(operation,machine) {
 
 var p_url="https://isdportal.oracle.com/pls/portal/tsr_admin.CUSTOMIZE.sf_audit_click?p_code=C_CLICK&p_id1=";
@@ -23,6 +23,3 @@ http.send(null);
 }
 
 }
-
-
-

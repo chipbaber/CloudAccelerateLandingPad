@@ -3,86 +3,86 @@
 "title" : "In-View of a Cloud Enabled Government",
 "approveddomains": "",
 "background" : "",
-"storyoverlay":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043216_P393371663",
+"storyoverlay":"images/cloudmessage/Ski-Lift_Landing-Pad.jpg",
 "textcolor":"#ffffff",
 "navmenucolor":"#9F3A32" ,
 "ivm":"",
 "opptsketch":"",
-"pptlink":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1194763142_Z392780458",
-"pdflink":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1194763145_(392780775",
-"clickthroughdemo":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1196157232_h392974462",
-"userguide":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1196157229_f392974145",
+"pptlink":"images/cloudmessage/SkiLiftInspection_SimplifiedCloudMessage.pptx",
+"pdflink":"images/cloudmessage/SkiLiftInspection_SimplifiedCloudMessage.pdf",
+"clickthroughdemo":"",
+"userguide":"",
 "prototypevideo":"",
 "customer": "Simplified Cloud Message for Government",
 "created" : "May 20, 2016",
 "createdby" : "Rock Whitney, Mathew Freeman, Chip Baber, Collette Cowan, Aasheesh Naveen",
-"video" : "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199044600_L393375467",
+"video" : "images/cloudmessage/skiLift_v1.mp4",
 "storyframes" : [
   {
     "text": "<i>Skiing is an inherently risky activity</i> - riding a chairlift while skiing shouldn't be.  For state inspection supervisor Hanna Jane, her near invisible job was brought to the forefront of the public eye a year ago. Back then a faulty ski lift stranded a group of kindergarteners for several hours. While no one was hurt, the faces of panic stricken children in the news sprung the political wheels into motion.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043219_P393371980"
+    "image": "images/cloudmessage/Ski-Lift_Screen_04_Colored.jpg"
   },
   {
     "text": "A few months later, her division received Ski ACT #47, a set of new regulations, with mandated inspection timelines to insure the safety of citizens and tourist. For years, her organization leveraged paper based processes to make ski lift inspections across the state. While the processes worked, it was error prone and simply could not route the paperwork through the approval chain before the newly mandated timelines expired. Something had to change. Her organization needed to modernize, needed  to execute without costly delays in hardware or software provisioning. They needed to move to the Cloud.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043222_P393372297"
+    "image": "images/cloudmessage/Ski-Lift_Screen_05_Colored.jpg"
   },
   {
     "text": "This challenge gave birth to what will be the centerpiece of Hanna's career in public service. In just a few months, her state launched an application called In-View. The application leverages the process automation and mobile technology in the cloud to transform the speed at which her division operates. The cloud seamlessly evolves legacy paper based manual workflows into online, mobile enabled solutions.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043225_P393372614"
+    "image": "images/cloudmessage/Ski-Lift_Screen_06_Colored.jpg"
   },
   {
     "text": "Today Hanna's field inspectors, like Jim Banes, can carry tablets instead of binders. Each morning they are able to login to In-View and in a matter of minutes create a new inspection that collects all the information required by Ski Act #47.  If a particular lift like #12, could have a problem.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043228_P393372931"
+    "image": "images/cloudmessage/Ski-Lift_Screen_07_Colored.jpg"
   },
   {
     "text": "Jim is able to take pictures and enter detailed notes about of the mechanical components in question. The cloud then geo-codes all relevant information and once the inspection is officially submitted, In-View runs data checks directly against the legislation to insure the Jim's analysis comforts to the exact letter of the law.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043231_P393373248"
+    "image": "images/cloudmessage/Ski-Lift_Screen_08_Colored.jpg"
   },
   {
     "text": "In a matter of seconds information that once took days or weeks to receive, is on Hanna's desktop. She is able to analyze the images, read inspection notes and even look at past reports on ski lift #12. But In-View, does not stop there.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043234_P393373565"
+    "image": "images/cloudmessage/Ski-Lift_Screen_09_Colored.jpg"
   },
   {
     "text": "The platform is designed for agility, and as new addendums are added to Ski Act #47, In-View is able to quickly adapt. The Policy Automation Cloud Service enables Hanna to work directly with business Analysts, like Joe, to mark-up any new legislation inside a simple Word editor. The markup is then deployed into the cloud and available for In-View business processes to leverage. This insures all future ski lift inspections conform to the new regulations in a matter of hours as opposed to weeks or months.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043237_P393373882"
+    "image": "images/cloudmessage/Ski-Lift_Screen_010_Colored.jpg"
   },
   {
     "text": "Additional cloud capabilities can be added into In-View as and when the state requires.  The solution is designed from the ground up to foster growth as the ever changing world of technology advances.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043240_P393374199"
+    "image": "images/cloudmessage/Ski-Lift_Screen_011_Colored.jpg"
   },
   {
     "text": "With In-View, Hanna has immediate access to the information, process details and legislation she needs to adhere to the law, but most importantly to keep her family and her fellow citizens safe.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199043243_P393374516"
-  }         
+    "image": "images/cloudmessage/Ski-Lift_Screen_012_Colored.jpg"
+  }
   ],
 "architecture" : [
  {
     "text": "Let's take a look under the covers at how the Oracle Cloud enables our Ski Inspection process. As inspector's like Jim Banes analyze past inspection reports or collect data for new reports all the information is available at his fingertips through the In-View mobile application. In-View leverages the Mobile Cloud Service as a centralized mobile backend. ",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199044998_%3C393375784"
+    "image": "images/cloudmessage/Slide2.JPG"
   },
    {
     "text": "Today's inspection report is calling API's  that communicate with the Process Cloud Service to officially submit the ski inspection and begin the approval process. The first step in our process is to validate Jim's information against Ski ACT #47 to insure he has performed all the required steps, and collected the proper information for approval.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045001_%3C393376101"
+    "image": "images/cloudmessage/Slide3.JPG"
   },
    {
     "text": "Behind the scenes the Process Cloud leverages the Policy Automation Cloud Service to check the inspection report details. If the report has met all the legislative requirements the process will proceed to the next step.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045004_%3C393376418"
+    "image": "images/cloudmessage/Slide4.JPG"
   },
    {
     "text": "If the legislation ever changes, or addendums are added to Ski Act #47 policy analyst like Joe are able to markup the legislation inside a text editor and save the changes directly to the Cloud in a matter of minutes. ",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045007_%3C393376735"
+    "image": "images/cloudmessage/Slide5.JPG"
   },
    {
     "text": "With all the legislative checks in place, the Process Cloud notifies Hanna. She is able to review the inspection in details and either approve the report completing the inspection, or return the report with questions back to Jim in order to collect more information on our lift in question.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045010_%3C393377052"
+    "image": "images/cloudmessage/Slide6.JPG"
   },
    {
     "text": "This architecture diagram depicts the integration of multiple cloud based services to comprise the inspection application. The primary front-end Mobile UI can be written using the mobile framework of choice for the customer which interfaces to the Mobile Cloud Service via REST. The Mobile Cloud Service then leverages the Process Cloud Service for workflow activities which process the Inspection through the approval chain. To process the various laws and policies within Ski-lift inspection we interface with the Oracle Policy Automation Cloud Service which provides the necessary rules for the Inspector to abide by the laws for inspections.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045013_%3C393377369"
+    "image": "images/cloudmessage/Slide7.JPG"
   },
    {
     "text": "This architecture diagram depicts the physical and network zones of multiple cloud services to comprise the inspection application. The mobile application can be installed on the Mobile device of choice (iOS/Andriod). Mobile and Process Cloud services are hosted within the same Cloud Identity Domain where FW rules and credentials can be shared. Oracle Policy Automation is a cloud  based component of the SaaS Service Cloud.",
-    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1199045016_%3C393377686"
+    "image": "images/cloudmessage/Slide8.JPG"
   }
   ],
   "prototype" : []
