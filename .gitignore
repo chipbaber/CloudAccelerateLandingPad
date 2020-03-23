@@ -1,6 +1,8 @@
 # Ignore this crap#
 ###################
 *.mp4
+*.pptx
+*.pdf
 .DS_Store
 .DS_Store?
 ._*
