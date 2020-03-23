@@ -1,0 +1,151 @@
+{"storyboard" : [{
+"id": "1",
+"title" : "Modernized eCommerce Solution",
+"background" : "",
+"storyoverlay":"images/hotans_files/Hotans_Launch-page.jpg",
+"textcolor":"#ffffff",
+"navmenucolor":"#9C2C05" ,
+"ivm":"",
+"opptsketch":"",
+"pptlink":"images/hotans_files/Hotans.pptx",
+"pdflink":"images/hotans_files/Hotans.pdf",
+"businessvalue":"",
+"impactchecklist":"",
+"prototypevideo":"",
+"customer": "Hotans",
+"created" : "April 28, 2016",
+"createdby" : "Elizabeth Hogan, Chip Baber",
+"video" : "",
+"storyframes" : [
+  {
+    "text": "Meet Lina. She dreams of creating a new home office. One that will enable her to comfortably work from home 2-3 days a week. A modern design, that will foster learning for her two daughters while enabling her husband, Patrick, to stay on top of the bills.",
+    "image": "images/hotans_files/Hotans_Screen_03.jpg"
+  },
+  {
+    "text": "Unfortunately, Lina doesn't have much experience with interior design and she has made some purchases in the past that did not work out very well. However, she recently bought a large framed print from Hotan's, one that even her mother-in-law complimented.",
+    "image": "images/hotans_files/Hotans_Screen_04.jpg"
+  },
+  {
+    "text": "When she purchased the print, Lina signed up to receive promotional alerts for various room and decorating categories.  Today, Hotan's notified her of a flash sale on home office decor.",
+    "image": "images/hotans_files/Hotans_Screen_05.jpg"
+  },
+  {
+    "text": "The alert was timely and Lina immediately wanted to see how some of her favorite choices would look in context of her room. Using Hotan's mobile application she was able to take a picture of the current space and start bringing her vision to life with the mobile purchase preview functionality.",
+    "image": "images/hotans_files/Hotans_Screen_06.jpg"
+  },
+  {
+    "text": "A wall clock listed at 60% off for next 21 minutes, along with a new table and chairs looked great next to her print. So she decided to \"Pin It\" to her Hotan and Pinterest accounts, and quickly text her husband Patrick to get his opinion.  As Patrick responded \"Buy It\", Lina was all set to make the purchase.",
+    "image": "images/hotans_files/Hotans_Screen_07.jpg"
+  },
+  {
+    "text": "With only minutes left before the flash sale ended, she was able to leverage single click shopping inside her Hotan's profile. Single Click Shopping enables her to immediately use her preferred credit card and store pick-up location to make a purchase without re-entering any data. But most importantly it enables her to decorate her new home office before the flash sale ends.",
+    "image": "images/hotans_files/Hotans_Screen_08.jpg"
+  },
+  {
+    "text": "When her order is submitted, the inventory at her preferred store is verified through the integration of the front-end ecommerce app and the inventory management system. An internal alert is sent to the store indicating the item, its location within the store, pick up time, and customer information.",
+    "image": "images/hotans_files/Hotans_Screen_09.jpg"
+  },
+  {
+    "text": "If the clock had not been available at Lina's preferred store, she would have been notified of nearby alternatives for store pick up as well as delivery options. System options allow internal users at distribution centers and stores to review applicable business rules as well as the capability to make any necessary changes for the specific order. ",
+    "image": "images/hotans_files/Hotans_Screen_10.jpg"
+  },
+  {
+    "text": "A few minutes later Lina receives a confirmation from Hotan's that the order will be ready for pick up in one hour at her preferred store location, 5 minutes from husband's office. She calls Patrick and asks him to pick up the order on his way home.",
+    "image": "images/hotans_files/Hotans_Screen_11.jpg"
+  },
+  {
+    "text": "After work, Patrick heads to the nearby Hotan's store. As Patrick walks into the store, Access Points detect his entry and recognize him as a valued guest. Upon recognition, a tailored list of recommendations based on his purchase history, profile category preferences, and available inventory are sent to his smart phone, including a special offer for desk lamps matching the style preference chosen in his customer profile. ",
+    "image": "images/hotans_files/Hotans_Screen_12.jpg"
+  },
+  {
+    "text": "Meanwhile, Robbie, who is a team member at Hotan's, is notified of Patrick's impending arrival. Robbie greets him at the entrance and escorts him to the service desk to pickup his new home office decor.",
+    "image": "images/hotans_files/Hotans_Screen_13.jpg"
+  } ,
+  {
+    "text": "At the service desk, Robbie quickly verifies Patrick's purchase information and has his purchase prepared for pick up. Patrick asks Robbie if the desk lamp offer that was sent to his smart phone upon his arrival is in stock in his daughter's favorite colors, purple and green. Robbie offers to check the store inventory and verifies that the lamp is available. ",
+    "image": "images/hotans_files/Hotans_Screen_14.jpg"
+  },
+  {
+    "text": "Patrick texts Lina and asks her to show their daughters the purchase preview app to see how the new lamp would look in the office. After an enthusiastic \"Yes!!\" from both girls, Robbie adds the lamp to the purchase and helps Patrick load  everything in the car. ",
+    "image": "images/hotans_files/Hotans_Screen_15.jpg"
+  },
+  {
+    "text": "At home, Patrick is greeted by his very happy and excited family and they celebrate the new additions to their family home office.",
+    "image": "images/hotans_files/Hotans_Screen_16.jpg"
+  }
+  ],
+"architecture": [
+                {
+                    "text" : "Lina downloads the Hotan's mobile app for online purchases on to her phone from hotans.com",
+                    "image" : "images/hotans_files/Slide2.JPG"
+                },
+                {
+                    "text" : "She fills out her customer profile information - including preferred store for location for picking up orders, payment information, and her favorite home goods categories - enabled by the Mobile Cloud Service. Her profile information is stored in the customer information database.",
+                    "image" : "images/hotans_files/Slide3.JPG"
+                },
+                {
+                    "text" : "The Marketing Cloud analyzes Lina's profile and preferences stored in the customer information database and pushes a flash sale notification to Lina's mobile phone.",
+                    "image" : "images/hotans_files/Slide4.JPG"
+                },
+                {
+                    "text" : "Lina views the flash sale item for a wall clock for her new office, and uses the Hotans purchase preview app to see how the clock would look with her current office set up.",
+                    "image" : "images/hotans_files/Slide5.JPG"
+                },
+                {
+                    "text" : "Lina decides to share the image of her office with the potential new purchase with her husband, Patrick, to get his opinion on the clock, table, and chairs. She also decides to share the image on social media and pins the image to Pinterest and sends the image to Patrick via the Process Cloud.",
+                    "image" : "images/hotans_files/Slide7.JPG"
+                },
+                {
+                    "text" : "Patrick is on his way to pick up the clock, table, and chairs that Lina purchased online from Hotan's earlier in the day. As he approaches the store, beacons detect his proximity through the Hotan's mobile app recognition setting he has enabled. ",
+                    "image" : "images/hotans_files/Slide9.JPG"
+                },
+                {
+                    "text" : "The beacon communicates with the process cloud service and initiates a business process.",
+                    "image" : "images/hotans_files/Slide10.JPG"
+                },
+                {
+                    "text" : "The first step in the process is to retrieve his preferences from the customer information database.",
+                    "image" : "images/hotans_files/Slide11.JPG"
+                },
+                {
+                    "text" : "Patrick's information (customer profile, preferences, order history, etc.) is analyzed by the Marketing Cloud, the Marketing Cloud pushes tailored special offers specific for the Hotan's location that he is entering to Patrick's mobile phone.",
+                    "image" : "images/hotans_files/Slide12.JPG"
+                },
+                {
+                    "text" : "Robbie, a Hotan's employee, is notified of Patrick's arrival, his preferences, purchase history, and order status so that he can offer a personalized greeting to Patrick as he enters the store.",
+                    "image" : "images/hotans_files/Slide14.JPG"
+                },
+                {
+                    "text" : "Lina places an order with her mobile phone through hotans.com",
+                    "image" : "images/hotans_files/Slide15.JPG"
+                },
+                {
+                    "text" : "Enabled by the Integration Cloud Service, her order information is validated and connected with legacy purchasing and supply chain systems, the customer information database, and store and warehouse inventory",
+                    "image" : "images/hotans_files/Slide16.JPG"
+                },
+                {
+                    "text" : "Lina's order is analyzed by the Process Cloud and kicks off an inventory verification process that generates any required notifications for the supply chain manager",
+                    "image" : "images/hotans_files/Slide17.JPG"
+                },
+                {
+                    "text" : "The Process Cloud also initiates a business rules check through the Policy Automation Cloud Service that allows specific business rule activation or override as necessary.",
+                    "image" : "images/hotans_files/Slide18.JPG"
+                },
+                {
+                    "text" : "The Process Cloud initiates an inventory replenish if target thresholds are met.",
+                    "image" : "images/hotans_files/Slide19.JPG"
+                },
+                {
+                    "text" : "Order information is transmitted to the specific Hotan's location identified for order pick up - allowing store employees to verify and prepare the order for customer pick up.",
+                    "image" : "images/hotans_files/Slide20.JPG"
+                },
+                {
+                    "text" : "The Process Cloud pushes an order pick up notification to Lina's mobile phone notifying her that her order is ready for pick up at her preferred Hotan's location. Her order is complete!",
+                    "image" : "images/hotans_files/Slide21.JPG"
+                }
+  ],
+"prototype": []
+}]
+
+
+}
