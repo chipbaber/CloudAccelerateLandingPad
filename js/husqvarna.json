@@ -1,0 +1,171 @@
+{"storyboard" : [{
+"id": "1",
+"title" : "We're Lonely without You!",
+"approveddomains": "",
+"background" : "images/husqvarna/grass-background.jpg",
+"storyoverlay":"images/husqvarna/husqvarna_Home_Color.jpg",
+"textcolor":"#f7e300",
+"navmenucolor":"#47585e" ,
+"ivm":"",
+"opptsketch":"images/husqvarna/husqvarnaOpportunitySketchReport.pdf",
+"pptlink":"images/husqvarna/husqvarna_StoryBoard.pptx",
+"pdflink":"images/husqvarna/husqvarna_StoryBoard.pdf",
+"clickthroughdemo":"",
+"userguide":"",
+"prototypevideo":"",
+"customer": "We're Lonely without You!",
+"created" : "May 20, 2016",
+"createdby" : "Rock Whitney, Mathew Freeman, Chip Baber, Collette Cowan, Aasheesh Naveen",
+"video" : "",
+"storyframes" : [
+  {
+    "text": "Our Home and Garden All-Stars...",
+    "image": "images/husqvarna/husqvarna_Cast_Slide.jpg"
+  },
+  {
+    "text": "After recently earning a well-deserved promotion and accompanying raise, Anisha finally moved out of her tiny city apartment and bought a small home on the edge of the city with some more green space. She’s looking forward to having her own yard, although small, to plant flowers and maybe even start a vegetable garden.",
+    "image": "images/husqvarna/husqvarna_Slide_01.jpg"
+  },
+  {
+    "text": "Anisha has a couple of coworkers – Brian and Rich - who enjoy working in their yards. Brian has a large property in the countryside and enjoys spending his weekends working on his land. Rich has a large, suburban house and likes to make sure his landscape impresses. They are both quite knowledgeable about power tools.",
+    "image": "images/husqvarna/husqvarna_Slide_02.jpg"
+  },
+  {
+    "text": "While at lunch with Brian and Rich, Anisha mentioned that she needed some advice for tools for her new yard. Brian explained that the Jonsered line that he favors would be overkill for Anisha’s needs, but recommended that she visit WeedEater.com. Rich explained that he preferred Poulan Pro for his relatively large space, and was impressed that he could easily register for the warranty just by scanning the box code.",
+    "image": "images/husqvarna/husqvarna_Slide_03.jpg"
+  },
+  {
+    "text": "Anisha pulled-up WeedEater.com on her phone, and after entering some brief information about her yard, maintenance needs, and project ideas, the website buying guide generated a comprehensive list of recommended tools and discount offers for Weed Eater and partner company tools. She was also offered a best practices guide for yard care that matched her specifications. Anisha decided to purchase the recommended tools (lawn mower, trimmer, blower) and the site provided a simple payment and shipping process.",
+    "image": "images/husqvarna/husqvarna_Slide_04_SC.jpg"
+  },
+  {
+    "text": "Brian suggested that Anisha sign up for the Weed Eater loyalty program – reminding her of his vintage Jonsered t-shirt that he received from a contest to test out tools and for writing online reviews. Rich also commented that he had opted into the Poulan Pro loyalty program contest to win the collectible Poulan Pro 306a chainsaw (made famous by Gunnar Hansen). As she completed the purchase process, Anisha selected the automatic warranty registration, and owner’s portal and loyalty program enrollment.",
+    "image": "images/husqvarna/husqvarna_Slide_05_EM.jpg"
+  },
+  {
+    "text": "A few days later, Anisha’s Weed Eater tools arrived and she was ready to whip her new yard into shape. Thanks to the welcome email she had received from Weed Eater, Anisha had already checked out the “How to get started” videos from the owner’s portal and she is up in running in no time.",
+    "image": "images/husqvarna/husqvarna_Slide_06.jpg"
+  },
+  {
+    "text": "After a productive afternoon, Anisha admires her freshly groomed yard and garden “awakening”. She can’t help but reflect on how her new tools made the job so easy and decides to submit a review based on her experience. She also enters a Weed Eater loyalty program contest to name the next tool in their leaf blower line.",
+    "image": "images/husqvarna/husqvarna_Slide_07.jpg"
+  },
+  {
+    "text": "Blythe leads the consumer marketing strategy for Weed Eater, Poulan Pro, and Jonsered consumer lines. She developed a phased, iterative approach to the campaign launch supported by data analytics. The first phase of the campaign focused on online contests across all three brands, resulting in a 65% increase in end consumer data. This helps her build a solid foundation for upcoming phases focused on direct consumer outreach.",
+    "image": "images/husqvarna/husqvarna_Slide_08.jpg"
+  },
+  {
+    "text": "As Blythe presented the outcome of the campaign’s first phase, she was able to instill confidence in both the marketing and finance teams that they had the required tools to provide insight into the performance of each phase of the marketing campaign, and be able to pivot as necessary.",
+    "image": "images/husqvarna/husqvarna_Slide_09_PPT.jpg"
+  }
+  ],
+"architecture" : [
+ {
+    "text": "Let's take a look under the covers at how the Oracle Cloud enables our Ski Inspection process. As inspector's like Jim Banes analyze past inspection reports or collect data for new reports all the information is available at his fingertips through the In-View mobile application. In-View leverages the Mobile Cloud Service as a centralized mobile backend. ",
+    "image": "images/husqvarna/1.JPG"
+  },
+   {
+    "text": "Today's inspection report is calling API's  that communicate with the Process Cloud Service to officially submit the ski inspection and begin the approval process. The first step in our process is to validate Jim's information against Ski ACT #47 to insure he has performed all the required steps, and collected the proper information for approval.",
+    "image": "images/husqvarna/2.JPG"
+  },
+   {
+    "text": "Behind the scenes the Process Cloud leverages the Policy Automation Cloud Service to check the inspection report details. If the report has met all the legislative requirements the process will proceed to the next step.",
+    "image": "images/husqvarna/3.JPG"
+  },
+   {
+    "text": "If the legislation ever changes, or addendums are added to Ski Act #47 policy analyst like Joe are able to markup the legislation inside a text editor and save the changes directly to the Cloud in a matter of minutes. ",
+    "image": "images/husqvarna/4.JPG"
+  },
+   {
+    "text": "With all the legislative checks in place, the Process Cloud notifies Hanna. She is able to review the inspection in details and either approve the report completing the inspection, or return the report with questions back to Jim in order to collect more information on our lift in question.",
+    "image": "images/husqvarna/5.JPG"
+  },
+   {
+    "text": "This architecture diagram depicts the integration of multiple cloud based services to comprise the inspection application. The primary front-end Mobile UI can be written using the mobile framework of choice for the customer which interfaces to the Mobile Cloud Service via REST. The Mobile Cloud Service then leverages the Process Cloud Service for workflow activities which process the Inspection through the approval chain. To process the various laws and policies within Ski-lift inspection we interface with the Oracle Policy Automation Cloud Service which provides the necessary rules for the Inspector to abide by the laws for inspections.",
+    "image": "images/husqvarna/6.JPG"
+  },
+   {
+    "text": "This architecture diagram depicts the physical and network zones of multiple cloud services to comprise the inspection application. The mobile application can be installed on the Mobile device of choice (iOS/Andriod). Mobile and Process Cloud services are hosted within the same Cloud Identity Domain where FW rules and credentials can be shared. Oracle Policy Automation is a cloud  based component of the SaaS Service Cloud.",
+    "image": "images/husqvarna/7.JPG"
+  }
+  ],
+  "prototype" : [
+  {
+    "text": "Taking Rich and Brian’s lunchtime advice, Anisha decides to checkout Weedeater.com from her mobile phone.",
+    "image":"images/husqvarna/husqvarna_01_Mobile.jpg"
+  },
+  {
+    "text": "First, Anisha chooses to register with the website by selecting My Yard Registration.",
+    "image":"images/husqvarna/husqvarna_02_Mobile.jpg"
+  },
+  {
+    "text": "The registration process can utilize Social Media accounts to sign up or an email account. Anisha chooses the email registration option and presses Submit Registration.",
+    "image":"images/husqvarna/husqvarna_03_Mobile.jpg"
+  },
+  {
+    "text": "Next, Anisha provides information about her yard. She selects the small yard option, indicates that she does not use it for sports, and that her yard terrain is flat. And saves this information.",
+    "image":"images/husqvarna/husqvarna_04_Mobile.jpg"
+  },
+  {
+    "text": "Brian and Rich suggested that she use the site’s recommendations (buyer’s guide) feature, and she selects this from the menu.",
+    "image":"images/husqvarna/husqvarna_05_Mobile.jpg"
+  },
+  {
+    "text": "Based on her yard profile, the site provides options of two types of mowers, various trimmers and a blower. Anisha decides to add a mower, string trimmer and blower to her shopping cart.",
+    "image":"images/husqvarna/husqvarna_06_Mobile.jpg"
+  },
+  {
+    "text": "She then selects My Cart from the menu to begin the check-out process.",
+    "image":"images/husqvarna/husqvarna_07_Mobile.jpg"
+  },
+  {
+    "text": "After reviewing the items in her shopping cart, she presses the Payment button to continue the purchase process.",
+    "image":"images/husqvarna/husqvarna_08_Mobile.jpg"
+  },
+  {
+    "text": "After entering-in her shipping and credit card information, Anisha presses the Finalize Purchase button to complete her purchase.",
+    "image":"images/husqvarna/husqvarna_09_Mobile.jpg"
+  },
+  {
+    "text": "A Purchase Confirmation message confirms her purchase, provides the total amount charged, and her order number.",
+    "image":"images/husqvarna/husqvarna_10_Mobile.jpg"
+  },
+  {
+    "text": "Anisha also receives an email confirmation with links for Weedeater’s loyalty program and owner’s portal. She clicks the loyalty program link to review the benefits of the program.",
+    "image":"images/husqvarna/husqvarna_11_Email.jpg"
+  },
+  {
+    "text": "After grooming her yard and garden with her new Weedeater tools, she decides to write a review telling the world about her amazing experience with her new yard tools. She returns to the site from her mobile phone and logs into her account.",
+    "image":"images/husqvarna/husqvarna_12_Mobile.jpg"
+  },
+  {
+    "text": "Anisha selects Write a Review from the menu.",
+    "image":"images/husqvarna/husqvarna_13_Mobile.jpg"
+  },
+  {
+    "text": "Anisha then writes a short and sweet review, attaches a photo of her freshly groomed yard and selects the option to cross-post to her Facebook account. She then presses Submit Review.",
+    "image":"images/husqvarna/husqvarna_14_Mobile.jpg"
+  },
+  {
+    "text": "Back in the Husqvarna office, Blythe is utilizing robust tools to help her manage the campaigns associated with the pilot phase of Husqvarna’s consumer brands’ marketing strategy. Here she can track historical metrics across brands and regions as she plans the next phase of marketing campaigns.",
+    "image":"images/husqvarna/husqvarna_15_BICS_CP01.jpg"
+  },
+  {
+    "text": "In addition to the high-level historical view, Blythe can drill into each campaign to track which ads and channels have had the greatest impact.",
+    "image":"images/husqvarna/husqvarna_16_BICS_CP02.jpg"
+  },
+  {
+    "text": "Blythe also has information that can help her understand her target markets. Here she can see which customer profile attributes have the most influence. This allows her to fine tune her campaigns depending on the target customer group.",
+    "image":"images/husqvarna/husqvarna_17_BICS_TC01.jpg"
+  },
+  {
+    "text": "Once a marketing campaign is in-flight, Blythe can track campaign execution and response rates. She can also generate custom reports to demonstrate the effectiveness of campaign strategies to corporate leadership, helping to garner budgetary and resource support.",
+    "image":"images/husqvarna/husqvarna_18_BICS_CE01.jpg"
+  }
+  ],
+  "impactchecklist" : [ "images/husqvarna/husqvarnaBVK.pdf" ],
+  "launchplan" : ["images/husqvarna/husqvarnaLaunchPlan.pdf"]
+}]
+
+
+}
