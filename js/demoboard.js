@@ -32,7 +32,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 //var jsonId = 'https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id='+getUrlParameter('jsonId');
 //the pin serves as a redirect in case the generic launchpad does not have an authenticated user.
 //var pin = getUrlParameter('pin');
-var pin = 'hotans_storyboard'
+var pin = 'husqvarna'
 //console.log("Parameter check json repo id is: "+jsonId+"    PIN is:  " + pin);
 
 /*Gathers information for storyboard from json control file*/
