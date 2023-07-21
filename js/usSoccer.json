@@ -1,0 +1,238 @@
+{"storyboard" : [{
+"id": "1",
+"title" : "Transforming Soccer in the USA",
+"approveddomains": "",
+"background" : "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204502242_B393978401",
+"storyoverlay":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204708140_Y393999006",
+"textcolor":"#ffff00",
+"navmenucolor":"#47585E" ,
+"ivm":"",
+"opptsketch":"",
+"pptlink":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204793740_V394008516",
+"pdflink":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204793743_W394008833",
+"businessvalue":"",
+"impactchecklist":"",
+"prototypevideo":"",
+"launchplan":"https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1210558829_D394597185",
+"customer": "United States Soccer Foundation",
+"created" : "November 2, 2016",
+"createdby" : "L. Richard Stang",
+"video" : "",
+"storyframes" : [
+  {
+    "text": "Our All-Star Match Players...",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204595193_m393986643"
+  },
+  {
+    "text": "For Michelle the excitement of the Open Cup  has often been overshadowed by the rigors of legacy manual operations. Insuring player eligibility for the premiere event in the US, required high volumes of information in disparate forms like email, fax, spreadsheets and Access. This made it difficult for her to easily share critical player information with the event team.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204444237_:393963819"
+  },
+  {
+    "text": "Delays in Michelle’s work often cascaded down the chain causing event managers like Marcelo to scramble to develop match schedules from properly registered clubs.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204444240_:393964136"
+  },
+  {
+    "text": "In order to support the ever growing popularity of soccer across the USA, something had to change.  The core departments needed a way to automate, a way to easily share information, a way to make better decisions to maximize the sport's growth potential.  Today, as the team plans for the Open Cup 2017,  the US Soccer Federation is also kicking off their new Integrated platform.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204444243_:393964453"
+  },
+  {
+    "text": "For premiere events like the Open Cup, paper forms and manual emails are no longer required. Clubs simply choose from eligible players online and submit their roster with a click of a button. When the online registration process is completed, the system automatically routes payment information to financial systems, and notifies Event Managers, Player Services, and Marketing Departments of tasks and actions they need to perform.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204589656_l393984741"
+  },
+  {
+    "text": "Clubs who choose to subscribe to the platform will have instant access to dashboards that contain player statistics, status verification, online coaching videos and can even manage their operations through the same platform as the Soccer Federation.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204650216_Z393996787"
+  },
+  {
+    "text": "Scouting and Referee support is also available.  Today, referees can complete online certifications, train, and organize their schedules for upcoming games. For the first time, referees and scouts are able to receive proactive alerts as soon as new events are scheduled and manage event logistics directly from their mobile devices.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204589659_l393985058"
+  },
+  {
+    "text": "No longer does Michelle struggle to keep up, dashboards enable her to quickly track new player information and the automated verification process.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204444246_:393964770"
+  },
+  {
+    "text": "With Open Cup player eligibility automatically verified by the system, Marcelo can validate the Open Cup club rosters faster and deliver the match schedule to his event team colleagues earlier than ever before.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204650452_G393998055"
+  },
+  {
+    "text": "With an integrated system, Julie is able to see Marcelo’s match schedule sooner. When combined with digital versions of her logistics playbooks she is able to deliver her event logistics plan earlier to ensure Open Cup event logistics run smoothly.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204650219_Z393997104"
+  },
+  {
+    "text": "The new technology also provides immediate efficiencies to Marketing Managers like Claudio.  With the match schedule available sooner, Claudio is able to coordinate early with key sponsors and partners to begin promoting the Open Cup appreciation events he is planning.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204444249_:393965087"
+  },
+  {
+    "text": "The platform also enables Claudio’s Community Outreach team to initiate targeted emails specific to fan groups or participating teams with incentives like early bird discounts on tickets.  By removing manual activities Claudio is also able to coordinate and negotiate sooner with Sports Media outlets in order to broadcast more games and spread the energy and excitement of US soccer- as fast and far as possible.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204650222_Z393997421"
+  }
+  ],
+"architecture" : [
+{
+    "text": "Claudio is better able to coordinate Open Cup scheduling of Sponsor Appreciation events by leveraging the new best of breed Oracle CRM and Marketing platforms.  The Platform also enables him to efficiently develop targeted marketing campaigns with Clubs and Players.  Lastly, the platform delivers visibility into key business and event metrics to Clubs/Leagues and the Executives alike through mobile device and laptop dashboards.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491696_b393969525"
+  },
+  {
+    "text": "With the new platform, Julie has the agility to navigate and adjust to logistical changes and to seek approvals, as they occur, through automated processes directly from her mobile devices.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491699_b393969842"
+  },
+  {
+    "text": "The soccer community can also leverage the platform to access the latest Open Cup news from the Platform. This enables them to track their favorite Players and Teams as well as leverage the new loyalty program to take advantage of discounted premier ticket pricing.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491702_b393970159"
+  },
+  {
+    "text": "Today, referees can complete online certifications, train, and organize their schedules for upcoming games. For the first time, referees and scouts are able to receive proactive alerts as soon as new events are scheduled and manage event logistics directly from their mobile devices.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491705_b393970476"
+  },
+  {
+    "text": "The Online Store experience now provides the capability for Clubs to Market directly to the Fans. The Overall US Soccer community now has a Modern Web Store, Community Site and Mobile Application that exceed the capabilities provided by their European rivals!",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491708_b393970793"
+  },
+  {
+    "text": "The US Soccer Federation’s modernization initiative leverages the following robust and leading edge Cloud Technologies from Oracle.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491714_b393971427"
+  },
+  {
+    "text": "Claudio leverages Oracle Sales Cloud and Marketing Cloud to manage his Marketing activities and to coordinate Sponsor Appreciation Events.  The Oracle Business Intelligence Cloud Service delivers visibility into key metrics for the Leadership team and the Clubs through tailored Dashboards.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491717_b393971744"
+  },
+  {
+    "text": "Process Cloud Service provides the capability that allows Julie to adjust to Open Cup logistical changes, as they occur, through automated workflows.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491720_b393972061"
+  },
+  {
+    "text": "The Mobile Cloud Service connects the Soccer Community by providing the latest news and information about their favorite Players and Clubs.   Integration Cloud Service connects fans to the loyalty program to gain access to tailored marketing campaigns.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491723_b393972378"
+  },
+  {
+    "text": "Oracle Sites Cloud and Documents Cloud Service provides the capability for referees to complete online training and certification. Integration with Process Cloud Service facilitates personalized referee and scout alerts.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491730_D393972695"
+  },
+  {
+    "text": "The modern web store, hosted by Oracle Commerce Cloud, is making Soccer in the USA more popular than Europe by connecting fans to their favorite club and player merchandise.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1204491733_D393973012"
+  }
+  ],
+"prototype" : [
+  {
+    "text": "It is Open Cup registration time.  Marcelo logs into the Event Management Portal and creates a new event for Open Cup 2017, establishes the open registration period and other event constraints.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740820_V394314738"
+  },
+  {
+    "text": "John receives the Open Cup registration information as a Push notification to his mobile phone.  As a Club owner, John has already downloaded the Open Cup Mobile application and this makes it easier for him to interact with the soccer federation.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740817_V394314421"
+  },
+  {
+    "text": "John views the Push notification and utilizes the notification link to directly link to the Open Cup registration process.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740814_V394314104"
+  },
+  {
+    "text": "The Mobile application is secure, so John enters his USSF credentials and presses the Login button to access the application.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740811_V394313787"
+  },
+  {
+    "text": "John can choose several application options related to the Open Cup.  John presses the Begin Registration option to start the Open Cup 2017 registration process.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740808_V394313470"
+  },
+  {
+    "text": "The registration process is organized as a single screen accordion menu that outlines the registration steps John needs to complete.  John starts the registration process by selecting the Team Information section.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740805_V394313153"
+  },
+  {
+    "text": "All Team Information data fields in this section are pre-populated using information from his previous year registration. John validates the information is still correct and collapses the Team Information section.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740802_V394312836"
+  },
+  {
+    "text": "John validates and makes any changes to the pre-populated information under Affiliated Team(s), Team Uniform Description and League information sections before moving-on to the Player Selection section.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740799_V394312519"
+  },
+  {
+    "text": "The Player Selection section allows John to create a club roster for this year’s Open Cup.   This year, John has an exciting new player, Tim Kiqengoal, that he wants to add to the roster.  He will begin by uploading Tim’s most recent player photo by pressing the Upload Player Photo.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740796_V394312202"
+  },
+  {
+    "text": "John chooses to select Tim’s picture from his image gallery.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740749_Y394311885"
+  },
+  {
+    "text": "John enters the required player registration information and selects Upload option under Player Registration Documents to upload Tim’s signed registration form and his Passport as proof of citizenship.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740746_Y394311568"
+  },
+  {
+    "text": "John reviews Tim’s registration information and presses the Add/Save Player button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740743_Y394311251"
+  },
+  {
+    "text": "John then proceeds to the Payment section to pay the registration fees to complete his club’s registration for Open Cup 2017.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740740_Y394310934"
+  },
+  {
+    "text": "John utilizes the Use Club Payment option to utilize the credit card information he has saved to his account profile.  He simply verifies that the payment information is still correct and presses the Next button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740737_Y394310617"
+  },
+  {
+    "text": "John completes the registration by clicking on “Submit Registration�? button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740734_Y394310300"
+  },
+  {
+    "text": "Michele is notified after John submits his Open Cup club registration with a new club player – Tim Kiqengoal.  She selects the hyperlink from the email to directly access Tim’s registration information.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740731_Y394309983"
+  },
+  {
+    "text": "Michele validates Tim’s registration information and eligibility from the USSF Player Management portal.  This includes reviewing any supplemental documents included with his application by pressing the Review Submitted Documents button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740728_Y394309666"
+  },
+  {
+    "text": "Michele reviews the passport Tim submitted as his proof of citizenship and determines that Tim’s passport is expired.  She marks the document as Invalid and press the Save button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740725_Y394309349"
+  },
+  {
+    "text": "Michelle then Denies Tim’s application and the system opens a window that allows Michelle to add a tailored notification message that contains the specific reasons why the application was denied and suggests options to resolve.  She then presses the Submit button.  This action notifies Tim that his player application was denied and notifies John that he has an ineligible player on his Open Cup roster.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740722_Y394309032"
+  },
+  {
+    "text": "John as the Club Owner receives a push notification on his Tablet that Tim’s player application was rejected by the Federation and thus his Open Cup club roster needs updating.  He presses the Notification to learn more about the issue.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740719_V394308715"
+  },
+  {
+    "text": "John logs-on to the USSF mobile application.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740716_V394308398"
+  },
+  {
+    "text": "John sees that there is one notification item pending.  He presses the Notifications link to access the notification.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740713_V394308081"
+  },
+  {
+    "text": "John reads the note from Michelle and realizes that he uploaded an expired passport for Tim – a simple human error.  He does have Tim’s most recent passport image, so he presses upload button to upload the correct passport image.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740710_V394307764"
+  },
+  {
+    "text": "John selects the correct passport image from his image library.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740707_V394307447"
+  },
+  {
+    "text": "John verifies that the uploaded passport image is correct and clicks on Submit button to send the updated passport image to Michele for review.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740704_V394307130"
+  },
+  {
+    "text": "Michele receives an email notification indicating that an updated passport image has been uploaded for Tim.  She clicks on the hyperlink to directly access Tim’s updated registration information.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740701_V394306813"
+  },
+  {
+    "text": "Michele verifies the updated passport image and determines that it is valid. She marks the document as valid and presses the Submit button.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740698_V394306496"
+  },
+  {
+    "text": "Michelle then Approves Tim’s application and add a simple congratulatory note to his approval notification.  Like before, John will also be notified that his club registration is now approved and valid.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740695_V394306179"
+  },
+  {
+    "text": "John receives a notification in his Tablet that his Open cup 2017 registration and Tim’s Player registration is complete and approved.",
+    "image": "https://isdportal.oracle.com/pls/portal/tsr_admin.isd_portlets4.download_repo?p_id=REPO_f1207740692_V394305862"
+  }
+]
+}]
+
+
+}
